@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '0wj9!06r#_j66b7_ox#0@p4^)iw9aj_z0re3heho*x*@#a9185'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['skfrost-testapp-1.herokuapp.com', '127.0.0.1']
 
