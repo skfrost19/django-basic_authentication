@@ -1,0 +1,11 @@
+{% extends 'navbar.html' %}
+{% load static %}
+
+{% block content %}
+    <link rel="stylesheet" href={% static "simplewebapp/css/signup.css" %}
+    <h4> <font color="white" alignment ="center">{{ cogmessage }}</font></h4>
+    <h4><font color="white" alignment ="center">{{ erormessage }}</font></h4>
+    <h4><font color="white" alignment ="center">{{ msg }}</font></h4>
+{% endblock %}
+
+

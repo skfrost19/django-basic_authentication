@@ -1,0 +1,72 @@
+{% include 'navbar.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<head>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href={% static "aboutus/css/aboutus.css" %}>
+    <title>
+        About-Us
+    </title>
+</head>
+<body>
+<div class="aboutus-area bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="aboutus-image float-left hidden-sm"><img
+                            src={% static "aboutus/image/logo.jpg" %} alt=""></div>
+                </div>
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <div class="aboutus-content ">
+                        <h1>About <span>Us</span></h1>
+                        <h4><b>Project Details</b></h4>
+                        <p>
+                            This is the first web app build by me
+                            for testing.
+                            This is build by using python's framework <font color="blue">"Django"</font>
+                            and being deployed using <font color="blue">"Heroku"</font>
+                            Overall, i had a great experience, learnt many new
+                            things like how to use backend using Python,
+                            Authentication and Authorisation of users,
+                            Signup forms.
+                            I have used inbuilt sqlite database that comes with
+                            Django , i might use other DBs like Postgre, Amazon Bucket, Google Database etc.
+                            So, That's it about my Project.
+
+                        </p>
+
+                        <div class="counter ">
+
+                            <div class="single-counter text-center">
+                                <h2 class="counter">Python</h2>
+                                <p></p>
+                            </div>
+
+                            <div class="single-counter text-center">
+                                <h2 class="counter">Django</h2>
+                                <p></p>
+                            </div>
+
+                            <div class="single-counter text-center">
+                                <h2 class="counter">Heroku</h2>
+                                <p></p>
+                            </div>
+
+                            <div class="single-counter text-center">
+                                <h2 class="counter">GitHub</h2>
+                                <p></p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
