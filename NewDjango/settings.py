@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'NewDjango.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'DB2',
-        'HOST': 'localhost',
-        'PORT': 5432,
-        'USER': 'postgres',
-        'PASSWORD': 'ram@123456',
+       # add ur own database
+        
+        
+
+
     }
 }
 import dj_database_url
